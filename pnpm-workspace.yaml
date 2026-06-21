@@ -1,0 +1,6 @@
+packages:
+  - packages/*
+
+# Define a catalog of version ranges.
+catalog:
+  effect: 4.0.0-beta.85
