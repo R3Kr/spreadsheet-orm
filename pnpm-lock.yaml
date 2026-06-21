@@ -24,6 +24,15 @@ importers:
         specifier: 'catalog:'
         version: 4.0.0-beta.85
 
+  packages/spreadsheet-orm:
+    dependencies:
+      effect:
+        specifier: 'catalog:'
+        version: 4.0.0-beta.85
+      google-spreadsheets-client:
+        specifier: workspace:*
+        version: link:../google-spreadsheets-client
+
 packages:
 
   '@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.4':

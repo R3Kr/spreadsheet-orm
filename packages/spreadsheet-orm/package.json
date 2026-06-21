@@ -1,0 +1,27 @@
+{
+  "name": "spreadsheet-orm",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/main.ts",
+  "types": "./src/main.ts",
+  "exports": {
+    ".": {
+      "types": "./src/main.ts",
+      "default": "./src/main.ts"
+    }
+  },
+  "scripts": {
+    "check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "google-spreadsheets-client": "workspace:*"
+  },
+  "peerDependencies": {
+    "effect": "catalog:"
+  }
+}
